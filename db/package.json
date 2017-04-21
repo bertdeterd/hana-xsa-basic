@@ -1,0 +1,24 @@
+{
+  "name": "hana-xsa-basic",
+  "dependencies": {
+    "sap-hdi-deploy":"1.0.0"
+  },
+
+  "version": "1.0.0",
+  "description": "XSA Hana Basic App",
+  "main": "index.html",
+  "scripts": {
+    "start": "node node_modules/sap-hdi-deploy/deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertdeterd/hana-xsa-basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertdeterd/hana-xsa-basic/issues"
+  },
+  "homepage": "https://github.com/bertdeterd/hana-xsa-basic#readme"
+}

@@ -1,0 +1,10 @@
+namespace xsabasic.data.cust;
+
+context MD {
+   entity CaseType {
+      key CASETYPE          : String(10);
+          CASETYPETEXT      : String(20);
+          ACTIVE            : Boolean;
+   }
+   
+}

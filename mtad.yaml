@@ -1,0 +1,14 @@
+_schema-version: '2.0'
+ID: xsabasic
+version: 0.0.1
+
+modules:
+  - name: xsabasic-db
+    type: com.sap.xs.hdi
+    path: db
+    requires: 
+      xsabasic-hdi-container
+
+resources:
+  - name: xsabasic-hdi-container
+    type: com.sap.xs.hdi-container
