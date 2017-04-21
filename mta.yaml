@@ -9,25 +9,23 @@ modules:
     requires: 
       xsabasic-hdi-container
 
-
- - name: js
-   type: nodejs
-   path: js
-   provides:
-    - name: nodejs
-      properties:
+  - name: js
+    type: nodejs
+    path: js
+    provides:
+     - name: nodejs
+       properties:
        url: "${default-url}"
-   requires:
-    - name: hana_xsa001-uaa
-    - name: xsabasic-db
-    - name: xsabasic-hdi-container
+    requires:
+     - name: hana_xsa001-uaa
+     - name: xsabasic-db
+     - name: xsabasic-hdi-container
   
-
 resources:
   - name: xsabasic-hdi-container
     type: com.sap.xs.hdi-container
 
-- name: xsabasic-uaa
-   type: com.sap.xs.uaa
-   parameters:
-    config_path: ./xs-security.json
+  - name: xsabasic-uaa
+    type: com.sap.xs.uaa
+    parameters:
+     config_path: ./xs-security.json
