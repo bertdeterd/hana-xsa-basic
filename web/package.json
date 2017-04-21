@@ -8,7 +8,7 @@
   "description": "XSA Hana Basic App",
   "main": "index.html",
   "scripts": {
-    "start": "node node_modules/sap-hdi-deploy/deploy.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
